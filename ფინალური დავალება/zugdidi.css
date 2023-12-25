@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&family=Poppins:ital,wght@0,100;0,300;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Edu TAS Beginner", cursive;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo {
+  margin-left: 30px;
+  margin-top: 15px;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: black;
+}
+
+nav input {
+  width: 300px;
+  height: 30px;
+  border-radius: 20px;
+  transform: translateX(15%);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 70px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+nav ul a:hover {
+  border-radius: 7px;
+  background-color: rgba(99, 112, 81, 0.9);
+  color: #fff;
+  padding: 9px;
+  transition: 0.3s;
+}
+
+.icons {
+  margin-right: 30px;
+}
+
+.img-of-zugdidi {
+  border-radius: 10px;
+  margin-top: 60px;
+  margin-left: 10px;
+}
+
+.zugdidis-div {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.zugdidis-div .price-description {
+  color: black;
+  margin-top: 45px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: rgb(30, 151, 30);
+}
+
+@media screen and (max-width: 768px) {
+  header nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+    margin-right: 90px;
+  }
+
+  .icons {
+    position: absolute;
+    left: 58%;
+    top: 3%;
+  }
+
+  form input {
+    margin-right: 80px;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 40px;
+  }
+
+  .zugdidis-div {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  header nav {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .icons {
+    position: absolute;
+    top: 2%;
+    right: 3%;
+  }
+
+  .main-title {
+    margin-top: 80px;
+  }
+
+  main section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .zugdidis-div {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
