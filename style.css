@@ -1,0 +1,421 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&family=Poppins:ital,wght@0,100;0,300;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Edu TAS Beginner", cursive;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo {
+  margin-left: 30px;
+  margin-top: 15px;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: black;
+}
+
+nav input {
+  width: 300px;
+  height: 30px;
+  border-radius: 20px;
+  transform: translateX(15%);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 70px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+nav ul a:hover {
+  border-radius: 7px;
+  background-color: rgba(99, 112, 81, 0.9);
+  color: #fff;
+  padding: 9px;
+  transition: 0.3s;
+}
+
+.main-title {
+  background-color: rgb(147, 139, 139);
+  background-image: url("images/tbilisi.jpg");
+  background-blend-mode: multiply;
+  height: 650px;
+  margin-top: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 35px;
+}
+
+p {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -300px;
+  color: white;
+}
+
+.icons {
+  margin-right: 60px;
+  display: flex;
+  gap: 7px;
+  cursor: pointer;
+}
+
+#title2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.svaneti {
+  width: 350px;
+  height: 245px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.svaneti:hover {
+  width: 370px;
+  height: 255px;
+  transition: 0.4s;
+}
+
+.svanetis-div {
+  width: 350px;
+  height: 100px;
+  background-color: rgb(255, 252, 252);
+}
+
+.svanetis-div .div-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.svanetis-div .div-1 h2 {
+  font-size: 16px;
+  color: rgba(99, 112, 81, 0.9);
+}
+
+.kinchxa {
+  width: 350px;
+  height: 245px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.kinchxa:hover {
+  width: 370px;
+  height: 255px;
+  transition: 0.4s;
+}
+
+.kinchxas-div {
+  width: 350px;
+  height: 100px;
+  background-color: rgb(255, 252, 252);
+}
+
+.kinchxas-div .div-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.kinchxas-div .div-2 h2 {
+  font-size: 16px;
+  color: rgba(99, 112, 81, 0.9);
+}
+
+.zugdidi {
+  width: 350px;
+  height: 245px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.zugdidi:hover {
+  width: 370px;
+  height: 255px;
+  transition: 0.4s;
+}
+
+.zugdidis-div {
+  width: 350px;
+  height: 100px;
+  background-color: rgb(255, 252, 252);
+}
+
+.zugdidis-div .div-3 {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.zugdidis-div .div-3 h2 {
+  font-size: 16px;
+  color: rgba(99, 112, 81, 0.9);
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+  margin-top: 120px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.img-of-Ge {
+  width: 500px;
+  height: 200px;
+}
+
+.title2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  color: rgba(99, 112, 81, 0.9);
+}
+
+.order-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.order-button .button2 {
+  margin-top: 10px;
+  width: 120px;
+  height: 35px;
+  border-radius: 8px;
+  font-size: 15px;
+  background: rgba(99, 112, 81, 0.9);
+  border: none;
+  color: #fff;
+}
+
+.order-button .button2:hover {
+  width: 130px;
+  height: 45px;
+  transition: 0.5s;
+  margin-top: 20px;
+}
+
+.img-of-ge {
+  background-image: url(images/batumis\ image.jpeg);
+  width: 100%;
+  height: 700px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 25px;
+}
+
+.big-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -30px;
+}
+
+.footer1 {
+  background-color: #273a47;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-network {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 40px;
+  margin-top: -20vh;
+}
+
+.footer1 p {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+footer .container {
+  background-color: #e4e4e4;
+}
+
+.logo-class {
+  display: flex;
+  font-size: 30px;
+}
+
+.logo-class img {
+  margin-left: 20px;
+  margin-top: -10px;
+}
+
+.row-div {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 100px;
+}
+
+.row-div ul {
+  list-style: none;
+}
+
+.footer-column h4 {
+  font-size: 30px;
+  margin-bottom: 22px;
+  position: relative;
+}
+
+.footer-column h4::after {
+  content: "";
+  width: 70px;
+  height: 2px;
+  position: absolute;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-column ul li {
+  padding: 10px 0;
+}
+
+.footer-column ul li a {
+  color: black;
+  font-size: 16px;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.footer-column ul li a:hover {
+  opacity: 10;
+}
+
+@media screen and (max-width: 768px) {
+  header nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+    margin-right: 90px;
+  }
+
+  .icons {
+    position: absolute;
+    left: 58%;
+    top: 3%;
+  }
+
+  form input {
+    margin-right: 80px;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 40px;
+  }
+
+  .main-title {
+    height: 245px;
+    font-size: 20px;
+  }
+
+  .footer1 p {
+    text-align: center;
+  }
+
+  main section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img-of-ge {
+    width: 100%;
+    height: 700px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .row-div {
+    flex-direction: column;
+    padding: 20px 30px;
+  }
+
+  footer .footer-column ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  .tbcs-logo {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  header nav {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .tbcs-logo {
+    position: absolute;
+    left: 70%;
+    margin-top: 70px;
+  }
+
+  .icons {
+    position: absolute;
+    top: 2%;
+    right: 3%;
+  }
+
+  .main-title {
+    margin-top: 80px;
+  }
+
+  main section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
